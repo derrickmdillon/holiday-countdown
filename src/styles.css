@@ -4,3 +4,11 @@
 html, body {
     height: 100%
 }
+
+body {
+    background-image: url(src/assets/SeaView.jpg);
+    height: 100%; /* You must set a specified height */
+    background-position: center; /* Center the image */ 
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
