@@ -14,7 +14,7 @@ export class AppComponent {
 
   constructor() {
     const countDown = setInterval(() => {
-      const countDownDate = new Date('May 3, 2020 14:00:00').getTime();
+      const countDownDate = new Date('June 1, 2022 00:00:00').getTime();
       const now = new Date().getTime();
       const distance = countDownDate - now;
 
