@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'holiday-countdown';
-  days: number;
-  hours: number;
-  minutes: number;
-  seconds: number;
+  days: number = 0;
+  hours: number = 0;
+  minutes: number = 0;
+  seconds: number = 0;
 
   constructor() {
     const countDown = setInterval(() => {
